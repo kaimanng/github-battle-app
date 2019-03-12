@@ -23,6 +23,7 @@ class SearchLanguage extends React.Component {
   handleSubmit = (event) => {
     event.preventDefault()
     this.props.onSearch(this.state.language)
+    this.setState({ language: '' })
   }
 
   render() {
