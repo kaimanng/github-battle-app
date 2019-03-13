@@ -124,7 +124,6 @@ class Popular extends React.Component {
 
   componentDidMount() {
     this.updateLanguage(this.state.selectedLanguage)
-    this.updateSearchLanguage(this.state.selectedLanguage)
   }
 
   updateLanguage = async (lang) => {
